@@ -1,14 +1,9 @@
 
-public class Animal {
+public abstract class Animal {
 
-public static void sayName(){
-
-}
-
-public static void makeSound(){
-
-}
-
+    public abstract void makeSound();
+    public abstract void sayName();
+    public abstract void move ();
 
 
 
