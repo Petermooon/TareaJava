@@ -1,4 +1,5 @@
 public interface Flyable {
 
-    void fly();
+   public void trill();
+
 }

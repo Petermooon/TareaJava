@@ -1,12 +1,23 @@
-public abstract class Bird extends Animal implements Flyable {
+public class Bird extends Animal implements Flyable  {
 
-    public abstract void sayName();{
-        System.out.println("Piolin");}
 
-    public abstract void makeSound();{
-        System.out.println("trill");}
+    public void trill() {
+        System.out.println("trill/sing");
+    }
 
-    public abstract void move();{
-        System.out.println("fly");}
+
+
+    public void makeSound() {
+
+       trill();
+    }
+
+
+
+    public void sayName() {
+        System.out.println("Piolin");
+    }
+
+
 
 }
