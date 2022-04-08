@@ -1,4 +1,6 @@
-public class Dog extends Animal implements Barkable  {
+import io.github.petermooon.interfaces.Barkable;
+
+public class Dog extends Animal implements Barkable {
 
 
 

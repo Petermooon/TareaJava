@@ -1,4 +1,6 @@
-public class Bird extends Animal implements Flyable  {
+import io.github.petermooon.interfaces.Flyable;
+
+public class Bird extends Animal implements Flyable {
 
 
     public void trill() {
