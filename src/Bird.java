@@ -1,3 +1,4 @@
+import io.github.petermooon.abstracts.Animal;
 import io.github.petermooon.interfaces.Flyable;
 
 public class Bird extends Animal implements Flyable {

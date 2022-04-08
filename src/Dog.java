@@ -1,3 +1,4 @@
+import io.github.petermooon.abstracts.Animal;
 import io.github.petermooon.interfaces.Barkable;
 
 public class Dog extends Animal implements Barkable {

@@ -1,3 +1,4 @@
+import io.github.petermooon.abstracts.Animal;
 
 public class TareaMetodos {
 
